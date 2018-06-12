@@ -1,4 +1,14 @@
 h1 {
     font-size: 32px;
     color: red;
+    display: inline-block;
+}
+mat-card {
+    margin-top: 10px;
+    background: dodgerblue;
+    color: white;
+}
+
+button  mat-icon {
+    display: inline-block;
 }

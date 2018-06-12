@@ -2,3 +2,20 @@
 <h1>
   Welcome to {{ title }}!
 </h1>
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item>Settings</button>
+  <button mat-menu-item>Help</button>
+</mat-menu>
+
+<button mat-icon-button [matMenuTriggerFor]="appMenu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+
+<mat-card>
+  <mat-card-title>Card title</mat-card-title>
+  <mat-card-content>
+    this is the demo app created using angular-4
+  </mat-card-content>
+</mat-card>
+
+
