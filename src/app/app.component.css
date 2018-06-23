@@ -12,3 +12,6 @@ mat-card {
 button  mat-icon {
     display: inline-block;
 }
+mat-progress-bar {
+    margin-top: 10px;
+}
