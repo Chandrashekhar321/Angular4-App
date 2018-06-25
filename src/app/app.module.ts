@@ -4,11 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
-import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule } from '@angular/material';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatCardModule} from '@angular/material/card';
-import {MatDividerModule} from '@angular/material/divider';
-
+import { MaterialModule } from './material.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -16,15 +12,7 @@ import {MatDividerModule} from '@angular/material/divider';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    FormsModule,
-    HttpModule,
-    MatInputModule,
-    MatButtonModule,
-    MatSelectModule,
-    MatIconModule,
-    MatCardModule,
-    MatMenuModule,
-    MatDividerModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
